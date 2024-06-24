@@ -18,3 +18,6 @@ $ bash dna_seq_variant_calling_v1.sh 35K_1100 > dna_seq_variant_calling_v1_35K_1
 
 To run sbatch on biowulf hpc
 $ ​​sbatch --mem=50g --cpus-per-task=32 dna_seq_variant_calling_v1_35K_1100.sh
+
+
+Alternatively if you want to run directly, uncomment the eval.
